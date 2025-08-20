@@ -1,10 +1,23 @@
-# Project 2: Walmart Data Ingestion into BigQuery
-
 ## 📌 Overview
 This project demonstrates how to build an **ETL pipeline** using **Airflow** to ingest Walmart data into **Google BigQuery**.  
 The pipeline creates required dimension and staging tables, loads data from **Google Cloud Storage (GCS)**, and performs an **upsert** into the fact table using a BigQuery `MERGE` query. 
 
+* **Project Architecture**
+
 ![architecture_image](architecture_walmart_ingestion.jpg)
+
+* **Airflow Graph**
+  
+  ![airflow](Project_Screenshots/airflow_graph.png)
+
+* **Merchants Table**
+  ![merc](Project_Screenshots/merchants_tb.png)
+
+* **Walmart Sales Stage Table**
+![walstage](Project_Screenshots/walmart_sales_stg.png)
+
+* **Walmart Sales Target Table**
+![target](Project_Screenshots/walmart_sales_tgt.png)
 
 ---
 
