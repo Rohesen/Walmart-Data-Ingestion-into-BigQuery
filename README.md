@@ -11,12 +11,15 @@ The pipeline creates required dimension and staging tables, loads data from **Go
   ![airflow](Project_Screenshots/airflow_graph.png)
 
 * **Merchants Table**
+  
   ![merc](Project_Screenshots/merchants_tb.png)
 
 * **Walmart Sales Stage Table**
+  
 ![walstage](Project_Screenshots/walmart_sales_stg.png)
 
 * **Walmart Sales Target Table**
+  
 ![target](Project_Screenshots/walmart_sales_tgt.png)
 
 ---
